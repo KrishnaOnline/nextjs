@@ -1,0 +1,15 @@
+/** @type {import('next').NextConfig} */
+// const nextConfig = {};
+const nextConfig = {
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'i.ytimg.com',
+                port: '',
+            }
+        ]
+    }
+};
+
+export default nextConfig;
