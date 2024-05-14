@@ -7,7 +7,7 @@ export default function Home() {
   const [data, setData] = useState(null);
 
   const handleClick = async () => {
-    let data = {name: "Krish", role: "Coder"};
+    let data = {name: "Krish", role: "Software Engineer"};
     let res = await fetch("/api/add-item", {
       method: "POST", headers: {
         "Content-Type": "application/json",
@@ -37,11 +37,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div>
         <Image /*img*/
           className="h-[500px] m-10"
           height={500}
           width={900}
+          alt=""
           src="https://i.ytimg.com/vi/JTckTjJAE6s/maxresdefault.jpg"
         />
       </div>

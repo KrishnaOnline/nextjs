@@ -9,6 +9,9 @@ const nextConfig = {
                 port: '',
             }
         ]
+    },
+    compiler: {
+        styledComponents: true,
     }
 };
 
