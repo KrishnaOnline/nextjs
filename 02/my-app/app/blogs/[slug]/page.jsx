@@ -2,7 +2,10 @@ import React from 'react'
 
 const page = ({params}) => {
   return (
-    <div>Blog ID: {params.slug}</div>
+    <div>
+      <div>Blog ID: {params.slug}</div>
+      {/* <div>Blog Name: {params.slug}</div> */}
+    </div>
   )
 }
 
